@@ -1,1 +1,52 @@
 /* Стилизация кнопки */
+@import "assets/css/main.css";
+
+.button {
+    width: 100%;
+    max-width: 189px;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.button-primary {
+    color: var(--white);
+    background: var(--primary);
+}
+
+.button-primary:hover:enabled {
+    background: var(--dark-blue);
+}
+
+.button-secondary {
+    color: var(--white);
+    background: var(--purple);
+}
+
+.button-secondary:hover:enabled {
+    background: var(--dark-purple);
+}
+
+.button-alternate {
+    border: 1px solid var(--grey-3);
+    color: var(--grey-4);
+    background: var(--white);
+}
+
+.button-alternate:hover:enabled {
+    border: 1px solid var(--black);
+}
+
