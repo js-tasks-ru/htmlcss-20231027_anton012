@@ -3,10 +3,17 @@
     padding: 71px 0 136px;
     background: white;
     text-align: center;
+    color: var(--black);
+}
+
+.footer_component {
+    padding: 56px 0;
+    color: var(--grey-3);
+    background: var(--white-page-component);
+    text-align: center;
 }
 
 .footer__title {
-    color: #212429;
     font-size: 38px;
     font-style: normal;
     font-weight: 500;

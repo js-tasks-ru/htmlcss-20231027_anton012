@@ -2,5 +2,14 @@
 .main {
     background: #F9FAFC;
     padding: 0 165px 92px;
-    height: 300px;
 }
+
+.main_component {
+    background: var(--white-page-component);
+}
+.main_component-inner {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 56px;
+}
+
