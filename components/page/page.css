@@ -1,0 +1,15 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.page_component {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background: var(--white-page-component);
+}
+
+.page__main {
+    flex-grow: 1;
+}
