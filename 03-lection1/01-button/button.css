@@ -1,1 +1,28 @@
 /* Стилизация кнопки */
+
+.button {
+    box-sizing: border-box;
+    padding: 15px 66px 14px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.button:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.button_primary {
+    color: var(--white);
+    background: var(--primary);
+}
+
+.button_primary:hover:enabled {
+    background: var(--dark-blue);
+}
