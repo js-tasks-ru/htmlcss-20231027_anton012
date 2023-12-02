@@ -1,6 +1,11 @@
 
-.main {
+.preview {
     background: #F9FAFC;
-    padding: 0 165px 92px;
-    height: 300px;
+    padding: 68px 0 92px;
+}
+
+.preview__cards {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
 }
